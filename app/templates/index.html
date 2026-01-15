@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Agentic AI RAG Chatbot</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 Agentic AI RAG Chatbot</h1>
+
+        <form method="post" action="/ask">
+            <input 
+                type="text" 
+                name="query" 
+                placeholder="Ask a question about Agentic AI..." 
+                value="{{ query if query else '' }}"
+                required
+            />
+
+            <button type="submit">Ask</button>
+        </form>
+
+        {% if answer %}
+        <div class="card">
+            <h3>Answer</h3>
+            <p>{{ answer }}</p>
+
+            <h3>Confidence</h3>
+            <p>{{ confidence }}</p>
+        </div>
+
+        <div class="card">
+            <h3>Retrieved Context</h3>
+            {% for c in context %}
+                <details>
+                    <summary>Chunk {{ loop.index }}</summary>
+                    <p>{{ c }}</p>
+                </details>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

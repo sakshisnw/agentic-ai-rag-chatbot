@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+langchain
+langchain-community
+langchain-core
+langchain-pinecone
+langchain-huggingface
+langgraph
+pinecone
+transformers
+torch
+sentence-transformers
+pypdf
+pytest
+python-dotenv
