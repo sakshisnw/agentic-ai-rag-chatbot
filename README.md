@@ -24,12 +24,12 @@ It is designed to avoid hallucination by enforcing strict document grounding.
 ---
 
 ## Architecture
-```
+
 
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/10f85252-d34b-4eb0-b597-6000f800a445" />
 
 
-```
+
 
 ---
 
