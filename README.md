@@ -140,7 +140,6 @@ are covered with automated tests.
 
 ## Screenshots
 
-Example:
 <img width="904" height="930" alt="Screenshot 2026-01-15 214613" src="https://github.com/user-attachments/assets/9705abac-31d8-4307-b002-3c2e79cbac23" />
 
 <img width="861" height="897" alt="Screenshot 2026-01-15 214826" src="https://github.com/user-attachments/assets/dff5dd73-5d47-4e9a-9d9d-46ee312a9905" />
